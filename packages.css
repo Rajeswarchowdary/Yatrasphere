@@ -1,0 +1,69 @@
+body span {
+    color: #f60;
+}
+
+.packagesdiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.packagesdiv h1 {
+    color: #1E3A8A;
+}
+
+.packagesdiv {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.packagesdiv h1 span {
+    color: orange;
+}
+
+#packagesimg {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+    margin: 40px;
+}
+
+.package-card {
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    background-color: #fdfdfd;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.package-card img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+}
+
+.package-card h3 {
+    margin: 10px 0 5px;
+    color: #f60;
+}
+
+.package-card .price {
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 900px) {
+    #packagesimg {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #packagesimg {
+        grid-template-columns: 1fr;
+    }
+}

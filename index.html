@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" /> -->
+    <title>YatraSphere</title>
+    <link rel="icon" type="image/png" sizes="300x300" href="tittleimg.png">
+    <link rel="stylesheet" href="YatraSphere.css">
+
+</head>
+
+<body>
+    <nav class="navbar">
+        <img src="tittleimg.png" alt="logo">
+        <ul class="nav-items">
+            <li class="dropdown">
+                <a href="#">Destinations🔻</a>
+                <div class="dropdown-menu">
+                    <div class="dropdown-columns">
+                        <div class="column">
+                            <h4>🧭North India</h4>
+                            <a href="#" class="atag">Rajasthan</a>
+                            <a href="#" class="atag">Himachal Pradesh</a>
+                            <a href="#" class="atag">Uttarakhand</a>
+                            <a href="#" class="atag">Uttar Pradesh</a>
+                            <a href="#" class="more">More...</a>
+                        </div>
+                        <div class="column">
+                            <h4>🌴South India</h4>
+                            <a href="#" class="atag">Kerala</a>
+                            <a href="#" class="atag">Karnataka</a>
+                            <a href="#" class="atag">Tamil Nadu</a>
+                            <a href="#" class="atag">Andhra Pradesh</a>
+                            <a href="#" class="more">More...</a>
+                        </div>
+                        <div class="column">
+                            <h4>🌾East India</h4>
+                            <a href="#" class="atag">Sikkim</a>
+                            <a href="#" class="atag">Assam</a>
+                            <a href="#" class="atag">Nagaland</a>
+                            <a href="#" class="atag">Tripura</a>
+                            <a href="#" class="atag">Jharkhand</a>
+                            <a href="#" class="more">More...</a>
+                        </div>
+                        <div class="column">
+                            <h4>🏝️West India</h4>
+                            <a href="#" class="atag">Goa</a>
+                            <a href="#" class="atag">Gujarat</a>
+                            <a href="#" class="atag">Maharashtra</a>
+                            <a href="#" class="more">More...</a>
+                        </div>
+                        <div class="column">
+                            <h4>🏞️Central India</h4>
+                            <a href="#" class="atag">Madhya Pradesh</a>
+                            <a href="#" class="atag">Chhattisgarh</a>
+                        </div>
+                        <div class="column">
+                            <h4>🌊Union Territories</h4>
+                            <a href="#" class="atag">Jammu and Kashmir</a>
+                            <a href="#" class="atag">Ladakh</a>
+                            <a href="#" class="atag">Andaman and Nicobar Islands</a>
+                            <a href="#" class="atag">Chandigarh</a>
+                            <a href="#" class="atag">Dadra and Nagar Haveli</a>
+                            <a href="#" class="atag">Daman and Diu</a>
+                            <a href="#" class="atag">Puducherry</a>
+                        </div>
+                        <!-- <img src="navtravel.jpg" alt="travel" width="150px" height="200px"> -->
+                        <!-- <img src="https://w0.peakpx.com/wallpaper/996/850/HD-wallpaper-india-incredible-cultural-love-culture-india-map-heritage-mahan-map-indian.jpg" alt="map" width="100px" height="250px"> -->
+                        <img src="indiamap.jpg" alt="india" width="150px" height="200px">
+                        <!-- <img src="https://www.nicepng.com/png/detail/254-2549236_vestibulum-tincidunt-venenatis-scelerisque-diversity-culture-of-india.png" alt="map" width="400px" height="250px"> -->
+                    </div>
+                </div>
+
+            </li>
+            <!-- <li><a href="#">Holiday Ideas</a></li> -->
+            <li><a href="packages.html">Packages</a></li>
+            <li><a href="weather.html">Weather Check</a></li>
+            <li><a href="#containermaindiv" class="smooth-scroll">Contact</a></li>
+
+        </ul>
+
+    </nav>
+    <div class="contain">
+        <div class="image-hide">
+            <div class="contain-img">
+                <img src="https://miro.medium.com/v2/resize:fit:1100/format:webp/1*KUbYlV2eeyRE5ZpyuAy9kA.jpeg" alt="">
+                <img src="https://images.pexels.com/photos/10413140/pexels-photo-10413140.jpeg" alt="">
+                <img src="https://images.pexels.com/photos/34014744/pexels-photo-34014744.jpeg" alt="">
+                <img src="https://images.pexels.com/photos/11321241/pexels-photo-11321241.jpeg" alt="">
+
+            </div>
+        </div>
+
+
+        <div class="contain-text">
+            <h1>Your adventure,<br><span>our expertise.</span></h1>
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder="Search for a destination...">
+                <button id="searchBtn" type="button">Search</button>
+            </div>
+
+            <div class="photo-grid" id="photoGrid"></div>
+
+            <div id="weatherBtn" class="weather">
+                <button onclick="window.location.href='weather.html'">Weather Check</button>
+            </div>
+
+            <div class="container-div">
+                <div class="container">
+                    <h3>Beaches in India <img src="beach-icon.png" alt="Beach Icon" /></h3>
+                    <img class="main-img" src="https://4kwallpapers.com/images/walls/thumbs_3t/14811.jpg" alt="Beach" />
+                    <p>Approximately <span>560 </span>beaches across the country.</p>
+                </div>
+
+                <div class="container">
+                    <h3>Temples <img src="temple-icon.png" alt="Temple Icon" /></h3>
+                    <img class="main-img" src="https://images.wallpaperscraft.com/image/single/pagoda_temple_castle_170043_3840x2400.jpg" alt="Temple" />
+                    <p><span>1,251,000+</span> places of worship</p>
+                </div>
+
+                <div class="container">
+                    <h3>Hill Stations <img src="hill-station.png" alt="Hill Icon" /></h3>
+                    <img class="main-img" src="https://plus.unsplash.com/premium_photo-1697729733902-f8c92710db07?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Hill Station" />
+                    <p><span>1,000</span> hill stations spread across various states and regions.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- topplacediv  -->
+
+    <div class="topplace">
+        <!-- <h1>Explore Top  <span>Destinations by Region</span></h1> -->
+        <h1>Top Trending<span> Destinations</span></h1>
+    </div>
+    <div class="img" id="scroll">
+
+    </div>
+
+    </div>
+
+    <!-- arrowbutton -->
+    <div class="arrow-buttons">
+        <button class="arrow-btn left"><i class="fas fa-arrow-left"></i></button>
+        <button class="arrow-btn right"><i class="fas fa-arrow-right"></i></button>
+    </div>
+
+    <!-- packages div -->
+
+    <div class="packagesmaindiv" id="packagesmaindiv">
+        <h1>Best<span> Packages</span></h1>
+        <div class="packages-img">
+            <div class="packages-place">
+                <h3>GOA</h3>
+                <img src="https://media.istockphoto.com/id/535168027/photo/india-goa-palolem-beach.jpg?s=612x612&w=0&k=20&c=iGV1Ue0Efj87dQirWnUpZVG1dNobUjfVvMGdKHTJ7Qg=" alt="goa">
+                <h5>FROM ₹4999</h5>
+            </div>
+            <div class="packages-place">
+                <h3>Rishikesh & Haridwar</h3>
+                <img src="https://media.gettyimages.com/id/2224689490/photo/haridwar-india-an-aerial-view-of-har-ki-paudi-during-ganga-aarti-on-june-27-2025-in-haridwar.jpg?s=612x612&w=0&k=20&c=RPJ4H-4qO9rfdPOoxxS3LymJtqEa-aHFlHG03RMqi6k=" , alt="goa">
+                <h5>FROM ₹8000</h5>
+            </div>
+            <div class="packages-place">
+                <h3>Shimla & Manali</h3>
+                <img src="https://t4.ftcdn.net/jpg/01/71/19/19/360_F_171191968_h1yWvnUTa0MM6iIBnGdAHZeUAJEh9dBh.jpg" alt="goa">
+                <h5>FROM ₹12999</h5>
+            </div>
+            <div class="packages-place">
+                <h3>Udaipur (Rajasthan)</h3>
+                <img src="https://images.pexels.com/photos/17547457/pexels-photo-17547457/free-photo-of-aerial-view-of-the-city-of-udaipur-in-india-at-sunset.jpeg" alt="goa">
+                <h5>FROM ₹8000</h5>
+            </div>
+            <div class="packages-place">
+                <h3>Kerala</h3>
+                <img src="https://thumbs.dreamstime.com/b/backwaters-kerala-houseboat-india-45692218.jpg" alt="goa">
+                <h5>FROM ₹12000</h5>
+            </div>
+            <div class="packages-place">
+                <h3>Andaman and Nicobar Islands</h3>
+                <img src="data:image/jpeg;base64,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"
+                    alt="goa">
+                <h5>FROM ₹30000</h5>
+            </div>
+        </div>
+    </div>
+    <button class="packagesbutton" onclick="window.location.href='packages.html'">See More</button>
+
+
+    <div class="containermaindiv" id="containermaindiv">
+        <h1>Contact <span>Us</span></h1>
+        <div class="contactdiv">
+            <div class="leftside">
+                <img src="https://images.unsplash.com/photo-1504150558240-0b4fd8946624?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHRyYXZlbCUyMGFnZW5jeXxlbnwwfHwwfHx8MA%3D%3D" alt="">
+            </div>
+            <div class="rightside">
+                <h1>Fill The Details for More Information </h1>
+                <form action="" class="rightsidecontact" onsubmit="return validateForm()">
+
+                    <div class="name">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" placeholder="Enter Your Name" required>
+                    </div>
+
+                    <div class="email">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" placeholder="Enter Your Email" required>
+                    </div>
+
+                    <div class="number">
+                        <label for="number">Mobile Number:</label>
+                        <input type="text" id="number" placeholder="Enter 10-digit Number" maxlength="10" required>
+                    </div>
+
+                    <button class="button" type="submit">Submit</button>
+                </form>
+
+
+            </div>
+        </div>
+        <footer class="footermaindiv">
+            <h1>Follow <span>Us</span></h1>
+            <div class="socialmedia">
+                <a class="social-button facebook" href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a class="social-button twitter" href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a class="social-button youtube" href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
+                <a class="social-button instagram" href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+
+
+        </footer>
+    </div>
+
+
+    <script src="YatraSphere.js"></script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <div class="packages">
+            <div class="packages-img">
+                <img class="main-img" src="" alt="Hill Station" />
+                <p>1,000 hill stations spread across various states and regions.</p>
+            </div>
+        </div> -->
