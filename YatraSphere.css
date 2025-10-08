@@ -252,7 +252,7 @@ button:hover {
     animation: typing 4s steps(40, end) forwards, blink-caret 0.9s step-end infinite;
     font-size: 3.5rem;
     line-height: 1.2;
-    color: #e81115;
+    color: #1E3A8A;
 }
 
 @keyframes typing {
@@ -489,7 +489,7 @@ body span {
 
 .packagesmaindiv {
     text-align: center;
-    height: 110vh;
+    height: 120vh;
 }
 
 .packagesmaindiv h1 {
